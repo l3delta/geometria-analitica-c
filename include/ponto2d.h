@@ -17,7 +17,7 @@ Ponto2D ponto2d_criar(double x, double y);
 /* 
  * Distância entre dois pontos
  */
-double ponto2d_distancia(Ponto2D a, Ponto2D b);
+double ponto2d_distancia(Ponto2D A, Ponto2D B);
 
 #endif /* PONTO2D_H */
 
