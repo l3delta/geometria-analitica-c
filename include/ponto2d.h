@@ -12,3 +12,4 @@ double ponto2d_distancia(Ponto2D A, Ponto2D B);
 Ponto2D ponto2d_ponto_medio(Ponto2D A, Ponto2D B);
 
 #endif
+

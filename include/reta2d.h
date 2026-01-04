@@ -8,6 +8,17 @@ typedef struct {
     Ponto2D B;
 } Reta2D;
 
+typedef struct {
+    double A;
+    double B;
+    double C;
+} EquacaoGeral2D;
 
+EquacaoGeral2D reta2d_equacao_geral(Reta2D r);
+void reta2d_imprime_equacao_geral(Reta2D r);
+
+double reta2d_coeficiente_angular(Reta2D r);
+double reta2d_coeficiente_linear(Reta2D r);
+void reta2d_imprime_equacao_reduzida(Reta2D r);
 
 #endif
